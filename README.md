@@ -1,1 +1,1 @@
-## Alguns exemplos que criei sobre map, filter e reduce do javascript.
+## Alguns exemplos que criei sobre os métodos map, filter e reduce do javascript.
