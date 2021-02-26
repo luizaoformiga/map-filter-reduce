@@ -1,1 +1,1 @@
-## Aulas do curso da Digital Innovation One sobre map, filter e reduce.
+## Alguns exemplos que criei sobre map, filter e reduce do javascript.
