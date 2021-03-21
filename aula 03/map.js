@@ -27,21 +27,18 @@ const animals = [
 ]
 
 /*
+   Map
 
-* Map
-* retornar um novo array com a mesma quantidade de elementos que o array inicial
-
+   Retornar um novo array com a mesma quantidade de elementos que o array inicial
 */
-const petNames = animals.map((animals) => {
-    return animals.name;
-})
+
+const petNames = animals.map(animals => animals.name);
+
 console.log(petNames);
 
 //forEach
-const forEachpets = []
+const forEachpets = [];
 
-animals.forEach((animals) => {
-    forEachpets.push(animals.name);
-});
+animals.forEach(animals => forEachpets.push(animals.name));
 
 console.log(forEachpets);

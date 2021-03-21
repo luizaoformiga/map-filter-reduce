@@ -1,5 +1,4 @@
 const animals = [
-
     {
         type: 'fish',
         name: 'gulp',
@@ -31,6 +30,6 @@ const totalweight = animals.reduce((total, animals) => {
     console.log(`animals: ${animals.name}`);
 
     return total + animals.weight;
-}, 0);
+}, 0)
 
 console.log(totalweight);

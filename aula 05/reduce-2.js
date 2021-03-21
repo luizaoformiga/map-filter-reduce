@@ -1,5 +1,4 @@
 const animals = [
-
     {
         type: 'fish',
         name: 'gulp',
@@ -37,9 +36,6 @@ console.log(totalweight);
 
 //vai compilar total de idade dos animais e  total de peso dos animais.
 
-
-const total = animals.reduce((total, animals) => {
-    return total + animals;
-}, 0);
+const total = animals.reduce((total, animals) => total + animals, 0);
 
 console.log(total);

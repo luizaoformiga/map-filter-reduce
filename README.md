@@ -1,1 +1,3 @@
-## Alguns exemplos que criei sobre os métodos map, filter e reduce do javascript.
+## Alguns exemplos sobre os métodos Map, Filter e Reduce do javascript ES6.
+
+Feito com muito carinho por: Luiz Lima

@@ -1,7 +1,4 @@
-//exemplo de arrays: 
-
 const pets = [
-
     {
         name: 'res',
         type: 'dalmata',
@@ -17,17 +14,10 @@ const pets = [
         type: 'vira-lata',
         age: 23
     }
+]
 
-];
-
-const idadePadrao = (numero) => {
-    return numero < 25;
-}
-
+const idadePadrao = numero => numero < 25;
 const newPets = pets.filter(({ age }) => idadePadrao(age));
+const newPets = pets.filter(pets => idadePadrao(pets.age));
 
-//ou 
-const newPets = pets.filter((pets) => {
-    return idadePadrao(pets.age)
-})
 console.log(newPets);
